@@ -1,0 +1,34 @@
+{
+    "playlists":[
+        {
+        "name" : "Motivational songs",
+        "songs":[
+            {"title":"Besabriyaan M.S.Dhoni Song", "Path":"music/Motivational_song/Besabriyaan M.S.Dhoni song.mp3"},
+            {"title":"Ghammand Kar song", "Path":"music/Motivational_song/Ghammand Kar song.mp3"},
+            {"title":"Give me Some Sunshine", "Path":"music/Motivational_song/Give me Some Sunshine.mp3"},
+            {"title":"Kar Har Maidan Fateh Song", "Path":"music/Motivational_song/Kar Har Maidan Fateh Song.mp3"},
+            {"title":"Parwah Nhi M.S.Dhoni Song", "Path":"music/Motivational_song/Parwah Nhi M.S.Dhoni song.mp3"}
+        ]
+        },
+        {
+            "name" : "Marathi Love Songs",
+            "songs":[
+                {"title":"Aai sappat - Marathi Song", "Path":"music/marathi_songs/Aai Sappat - Marathi song.mp3"},
+                {"title":"Dolbi Walya - Marathi Song", "Path":"music/marathi_songs/Dolbe Walya - Marathi Song.mp3"},
+                {"title":"Gulabi Sadi - Marathi Song", "Path":"music/marathi_songs/Gulabi sadi - Marathi Song.mp3"},
+                {"title":"Nakhrewali - Marathi Song", "Path":"music/marathi_songs/Nakhrewali - Marathi song.mp3"}
+            ]
+        },
+        {
+            "name" : "Romantic/Sad Bollywood Songs",
+            "songs":[
+                {"title":"Husn - Anuv Jain", "Path":"music/romantic_songs/Husn - Anuv Jain.mp3"},
+                {"title":"JO Tum Mere HO - Anuv Jain", "Path":"music/romantic_songs/Jo Tum Mere Ho - Anuv Jain.mp3"},
+                {"title":"Satranga From Animal - Arjit Singh", "Path":"music/romantic_songs/Satranga (From Animal) - Arjit Singh.mp3"},
+                {"title":"Sawre From Phantom - Arjit Singh", "Path":"music/romantic_songs/Saware (From 'Phantom') - Arjit Singh.mp3"},
+                {"title":"Shiddat Title Trac - Manan Bhardwaj", "Path":"music/romantic_songs/Shiddat Title Track - Manan Bhardwaj.mp3"}
+            ]
+        }
+        
+    ]
+}

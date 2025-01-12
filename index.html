@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify-Web Player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="icons">
+            <ul>
+                <li><img src="icons/logo.svg" alt="Spotify" id="logo"></li>
+                <li><img src="icons/home.svg" alt="Home" id="home"></li>
+                <li class="search-bar">
+                    <img src="icons/search.svg" alt="Search" id="search-icon">
+                    <input type="search" placeholder="What do you want to play?" id="search-input">
+                </li>
+            </ul>
+        </div>
+        <div class="buttons">
+            <button type="button">Sign UP</button>
+            <button type="button">Sign In</button>
+        </div>
+    </div>
+    <div class="main">
+        <div class="left">
+            <div class="navbar">
+                <img src="icons/playlist.svg" alt="playlist">
+                <P>Your Library</P>
+            </div>
+            <div class="playlist">
+            </div>
+        </div>
+        <div class="right">
+            <div class="navbar">
+                <p id="text">Spotify Playlist</p>
+            </div>
+            <div class="playlist-container">
+                <div class="card " id="motivational">
+                    <div class="play">
+
+                    </div>
+                    <img src="https://mosaic.scdn.co/640/ab67616d00001e0299241710b1b1b590b79d444eab67616d00001e02ca5585b4e97cd9deeafb5c63ab67616d00001e02e7c04de440551fe74643638aab67616d00001e02fd2df008046f04c32d9c0c2e"
+                     alt="Glory">
+                     <h1>Motivational Songs</h1>
+
+                </div>
+                <div class="card" id="marathi">
+                    <div class="play">
+                        
+                    </div>
+                    <img src="https://mosaic.scdn.co/640/ab67616d00001e024c24d1c21496dd0debc5b147ab67616d00001e02765f35d4ddd618147d7ca737ab67616d00001e02acb39f927a6f2ce5e1ddfe33ab67616d00001e02af9e8dfd99c2150e692cd96e"
+                     alt="Glory">
+                     <h1>Marathi Love Songs</h1>
+
+                </div> 
+                <div class="card" id="romantic">
+                    <div class="play">
+                        
+                    </div>
+                    <img src="https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72cbbe7fd37929dac8338933b4a"
+                     alt="Glory">
+                     <h1>Romantic/Sad Bollywood Songs</h1>
+
+                </div> 
+                <div class="card " id="motivational">
+                    <div class="play">
+
+                    </div>
+                    <img src="https://mosaic.scdn.co/640/ab67616d00001e0299241710b1b1b590b79d444eab67616d00001e02ca5585b4e97cd9deeafb5c63ab67616d00001e02e7c04de440551fe74643638aab67616d00001e02fd2df008046f04c32d9c0c2e"
+                     alt="Glory">
+                     <h1>Motivational Songs</h1>
+
+                </div>
+                <div class="card" id="marathi">
+                    <div class="play">
+                        
+                    </div>
+                    <img src="https://mosaic.scdn.co/640/ab67616d00001e024c24d1c21496dd0debc5b147ab67616d00001e02765f35d4ddd618147d7ca737ab67616d00001e02acb39f927a6f2ce5e1ddfe33ab67616d00001e02af9e8dfd99c2150e692cd96e"
+                     alt="Glory">
+                     <h1>Marathi Love Songs</h1>
+
+                </div> 
+                <div class="card" id="romantic">
+                    <div class="play">
+                        
+                    </div>
+                    <img src="https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72cbbe7fd37929dac8338933b4a"
+                     alt="Glory">
+                     <h1>Romantic/Sad Bollywood Songs</h1>
+
+                </div> 
+                <div class="card " id="motivational">
+                    <div class="play">
+
+                    </div>
+                    <img src="https://mosaic.scdn.co/640/ab67616d00001e0299241710b1b1b590b79d444eab67616d00001e02ca5585b4e97cd9deeafb5c63ab67616d00001e02e7c04de440551fe74643638aab67616d00001e02fd2df008046f04c32d9c0c2e"
+                     alt="Glory">
+                     <h1>Motivational Songs</h1>
+
+                </div>
+                <div class="card" id="marathi">
+                    <div class="play">
+                        
+                    </div>
+                    <img src="https://mosaic.scdn.co/640/ab67616d00001e024c24d1c21496dd0debc5b147ab67616d00001e02765f35d4ddd618147d7ca737ab67616d00001e02acb39f927a6f2ce5e1ddfe33ab67616d00001e02af9e8dfd99c2150e692cd96e"
+                     alt="Glory">
+                     <h1>Marathi Love Songs</h1>
+
+                </div> 
+                <div class="card" id="romantic">
+                    <div class="play">
+                        
+                    </div>
+                    <img src="https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72cbbe7fd37929dac8338933b4a"
+                     alt="Glory">
+                     <h1>Romantic/Sad Bollywood Songs</h1>
+
+                </div> 
+            </div> 
+            <div class="playbar">
+                <div class="playraw">
+                    <div class="song_n">
+                        <h1 class="song_name"></h1>
+                    </div>
+                    <div class="controlsong">
+                        <img id="previous" src="icons/previous.svg" alt="">
+                        <img id="play" src="icons/play.svg" alt="">
+                        <img id="next" src="icons/next.svg" alt="">
+                    </div>
+                    <div class="duration">
+                        <p id="current-time"> </p>
+                        <p id="total-duration"></p>
+                    </div>
+                </div>
+                
+            </div>  
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
